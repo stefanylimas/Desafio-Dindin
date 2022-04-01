@@ -1,0 +1,395 @@
+.index-banner {
+    background-image: url(../imagens/ilustra-banner.png);
+    background-position: 700px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 510px;
+    height: 733px;
+    display: flex;
+    flex-direction: column;
+}
+
+.index-banner h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #FF4081;
+    width: 488px;
+    height: 216px;
+    margin: 125px 0px 19px 206px;
+}
+
+.index-banner p {
+    font-weight: 400;
+    font-size: 27px;
+    color: #555555;
+    width: 350px;
+    height: 62px;
+    margin: 0 774px 38px 207px;
+}
+
+.index-banner a {
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    text-decoration: none;
+    color: #FF4081;
+    text-align: center;
+    font-weight: 400;
+    font-size: 27px;
+    padding: 8px 15px;
+    margin: 0 auto 201px 207px;
+    display: block;
+}
+
+.links-cursos-index {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    justify-content: space-evenly;
+    padding-top: 109px;
+    margin: 0;
+}
+
+.card-cursos-index1 {
+    width: 344px;
+    height: 505px;
+    text-align: center;
+    align-items: center;
+    margin: 0 15px 119px 15px;
+}
+
+.card-cursos-index1 img {
+    width: 288px;
+    height: 270px;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.card-cursos-index1 h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FF4081;
+    display: block;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.card-cursos-index1 p {
+    font-weight: 300;
+    font-size: 17px;
+    color: #000;
+    display: block;
+    text-align: center;
+    width: 293px;
+    margin-bottom: 26px;
+}
+
+.card-cursos-index1 a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    border: 1px solid #FF4081;
+    background-color: #FF4081;
+    border-radius: 62px;
+    padding: 10px 50px;
+}
+
+.card-cursos-index2 {
+    width: 344px;
+    height: 505px;
+    text-align: center;
+    align-items: center;
+    margin: 0 15px 119px 15px;
+}
+
+.card-cursos-index2 img {
+    width: 288px;
+    height: 270px;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.card-cursos-index2 h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FF4081;
+    display: block;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.card-cursos-index2 p {
+    font-weight: 300;
+    font-size: 17px;
+    color: #000;
+    display: block;
+    text-align: center;
+    width: 293px;
+    margin-bottom: 26px;
+}
+
+.card-cursos-index2 a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    border: 1px solid #FF4081;
+    background-color: #FF4081;
+    border-radius: 62px;
+    padding: 10px 50px;
+}
+
+.card-cursos-index3 {
+    width: 344px;
+    height: 505px;
+    text-align: center;
+    align-items: center;
+    margin: 0 15px 119px 15px;
+}
+
+.card-cursos-index3 img {
+    width: 288px;
+    height: 270px;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.card-cursos-index3 h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FF4081;
+    display: block;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.card-cursos-index3 p {
+    font-weight: 300;
+    font-size: 17px;
+    color: #000;
+    display: block;
+    text-align: center;
+    width: 293px;
+    margin-bottom: 26px;
+}
+
+.card-cursos-index3 a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    border: 1px solid #FF4081;
+    background-color: #FF4081;
+    border-radius: 62px;
+    padding: 10px 50px;
+}
+
+.sobre-nos-index {
+    padding-top: 120px;
+    margin: 0 auto 155px;
+}
+
+.sobre-nos-index h3 {
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    margin: 0 auto 78px 120px;
+}
+
+.depoimentos1 {
+    display:flex;
+    padding: 128px;
+    
+}
+
+.depoimentos2 {
+    display:flex;
+    padding: 128px;
+}
+
+.card-depoimento {
+    display: flex;
+    width: 40%;
+    column-gap: 30px;
+    
+}
+
+.card-depoimento img {
+    max-width: 88px;
+    max-height: 89px;
+    box-sizing: border-box;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
+    display: flex;
+}
+
+.card-depoimento p {
+    font-weight: 300;
+    width: 363px;
+    height: 70.27px;
+}
+
+.card-depoimento span {
+    font-weight: 400;
+}
+
+.mais-conteudo-index {
+    background-color: #E5E5E5;
+    padding-top: 90px;
+    padding-bottom: 53px;
+    padding: 128px;
+}
+
+.mais-conteudo-index h2 {
+    color: #009688;
+    padding: 91px 0 128px;
+}
+
+.conteudos-index {
+  
+    
+
+}
+
+.card-conteudos-index {
+
+}
+
+.card-conteudos-index img {
+    width: 319px;
+    height: 197px;
+    background-color: #C4C4C4;
+    color: #C4C4C4;
+    margin-bottom: 11px;
+    padding: 128px;
+    
+}
+
+.card-conteudos-index h4 {
+    font-weight: 700;
+    font-size: 27px;
+    color: #009688;
+}
+
+.card-conteudos-index p {
+    width: 319px;
+    height: 114px;
+}
+
+.conteudos-button {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    width: 280px;
+    border-radius: 62px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+}
+
+.conteudos-button a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FF4081;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 1215px) {
+    .index-banner {
+        background-image: none;
+    }
+
+    .links-cursos-index {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .index-banner h1 {
+        text-align: center;
+        margin: 125px auto 19px auto;
+    }
+    .index-banner p {
+        margin: 0 auto 39px auto;
+    }
+    .index-banner a {
+        margin: 0 auto 200px auto;
+    }
+    .mais-conteudo-index h2 {
+        color: #009688;
+        margin: 0 auto 78px 23%;
+    }
+    .card-conteudos-index {
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+        margin-bottom: 50px;
+    }
+    .card-depoimento {
+        width: auto;
+        margin-left: 5%;
+    }
+    .conteudos-button {
+        margin: -80px auto 50px auto;
+    }
+    .conteudos-button a {
+        padding: 10px 30px;
+    }
+    .conteudos-index {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media sreen and (max-width: 82px) {
+    .index-banner {
+        width: 80%;
+        background-size: 50px;
+        height: 500px;
+        margin: 20px 10px 20px 10px;
+    }
+    .index-banner h1 {
+        margin: 20px 0 20px auto;
+        width: 360px;
+    }
+    .index-banner p {
+        width: auto;
+        margin: 20px 0 20px 10%;
+    }
+    .index-banner a {
+        margin: 20px 0 20px 10%;
+    }
+    .card-depoimento {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+    }
+    .conteudos-index {
+        margin-bottom: 0;
+    }
+    .mais-conteudo-index h2 {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .index-banner h1 {
+        margin: 20px 0 50px auto;
+        width: 330px;
+    }
+    .index-banner p {
+        width: auto;
+        margin: 50px 0 50px 10%;
+        text-align: center;
+    }
+    .links-cursos-index {
+        margin-top: 80px;
+    }
+}
